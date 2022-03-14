@@ -3,38 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kopikita</title>
+    
 
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito:wght@200;300;400;600;700&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <title>Kopikita</title>
 </head>
 <body>
-
-    <!-- Ini Header -->
-    <header class="header">
-
-        <a href="#" class="logo">
-            <img src="image/Logo.png" alt="">
+    <header>
+        <a href="#" class="navbar-logo">
+            <img class="logo" src="image/Logo.png" alt="" width="30" height="30" class="">
+            Kopikita
         </a>
-    
-        <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#menu">menu</a>
-            <a href="#products">products</a>
-            <a href="#review">review</a>
-            <a href="#contact">contact</a>
-            <a href="#blogs">blogs</a>
+        <nav>
+            <ul class="nav-link">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Menu</a></li>
+            </ul>
         </nav>
-    
-        <div class="icons">
-            <div class="fas fa-search" id="search-btn"></div>
-            <div class="fas fa-shopping-cart" id="cart-btn"></div>
-            <div class="fas fa-bars" id="menu-btn"></div>
+        <div>
+            <a href="#"><button class="button-primary">Daftar</button></a>
+            <a href="#"><button class="button-secondary">Masuk</button></a>
         </div>
-    
-        
-    
     </header>
-    <!-- Ini Header -->
+
+    
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Nikmati Kopi Setiap Hari</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <a href="#" class="btn">Started</a>
+        </div>
+
+    </section>
+
 </body>
 </html>

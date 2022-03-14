@@ -1,25 +1,121 @@
-.header{
-    background: black;
+* {
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+section{
+    padding:2rem 7%;
+}
+
+.heading{
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+}
+
+li,
+a,
+button {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    background: #000;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding:1.5rem 7%;
-    border-bottom: var(--border);
+    border-bottom: #fff;
     position: fixed;
     top:0; left: 0; right: 0;
-    z-index: 1000;
+    
 }
 
-.header .logo img{
-    height: 3rem;
+header .navbar-logo img{
+    height: 30px;
 }
 
-.header .navbar a{
-    margin: 0 1rem;
+.navbar-logo {
+    font-weight: 700;
     font-size: 20px;
-    color:#fff;
 }
 
+.logo {
+    cursor: pointer;
+}
+
+.nav-link {
+    list-style: none;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-link li a {
+    transition: all 0.3s;
+}
+
+.nav-link li a:hover {
+    color: #e19e0d;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #ca9430;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+/* Home */
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: right;  
+    background:url(../image/home-img-a.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    color: #fff;
+    font-size: 50px;
+    text-align: right;
+    padding-left: 620px ;
+}
+
+.home .content h3{
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.home .content p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.8;
+}
 
 
 
