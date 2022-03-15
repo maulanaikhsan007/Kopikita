@@ -5,7 +5,6 @@
     outline: none; border:none;
     text-decoration: none;
     text-transform: capitalize;
-    transition: .2s linear;
 }
 
 section{
@@ -211,10 +210,11 @@ h2 {
     color: white;
   }
 
+/* footer */
 footer {
     text-align: center;
     padding-top: 20px;
-    border-top: 2px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
 }
 
 footer p {
