@@ -85,7 +85,6 @@ button {
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s;
 }
 
 /* Home */
@@ -177,11 +176,11 @@ h2 {
 }
 
 .menu-wrapper {
-    border-top: 5px solid wheat;
+ 
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;
-    background-color: #f7f7f7;
+    background-color: #000;
     text-align: center;
   }
   
@@ -213,12 +212,15 @@ h2 {
   }
 
 footer {
+    text-align: center;
     padding-top: 20px;
-    border-top: 5px solid whitesmoke;
+    border-top: 2px solid whitesmoke;
 }
 
 footer p {
     font-weight: 70;
     font-size: 12px;
+    text-align: center;
+    align-items: center;
     color:rgb(110, 102, 96);
 }
