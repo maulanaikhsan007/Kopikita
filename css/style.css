@@ -174,6 +174,7 @@ h2 {
     padding: 8px;
 }
 
+/* menu */
 .menu-wrapper {
  
     padding-bottom: 100px;
@@ -243,7 +244,6 @@ footer p {
     padding: 40px 0;
     font-weight: 700;
     font-size: 24px;
-    letter-spacing: 2px;
 }
 
 .contact {
