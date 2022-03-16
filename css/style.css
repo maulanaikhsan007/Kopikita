@@ -204,6 +204,12 @@ h2 {
   .menu-icon {
     position: relative;
   }
+
+  .menu-icon img {
+    height: 210px;
+    position: relative;
+    padding-bottom: 20px;
+  }
   
   .menu-kopi {
     position: absolute;
